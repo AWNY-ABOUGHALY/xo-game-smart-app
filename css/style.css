@@ -1,0 +1,64 @@
+.myapp {
+    box-shadow: 1px 1px 10px darkred;
+}
+.home {
+    background-color: #F2B708;
+}
+.headtitle {
+    background-color: #660240;
+    color: #F2B708;
+}
+.oxdiv, .oxdivbg {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: #660240;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    caret-color: #660240;
+}
+.oxdiv {
+    opacity: 0;
+    color: white;
+}
+.oxcontent {
+    width: 60px;
+    height: 60px;
+}
+.oxdiv .oxcontent i {
+    font-size: 60px;
+}
+input {
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.pcscore input {
+    border-color: red;
+    color: red;
+}
+.youscore input {
+    border-color: green;
+    color: green;
+}
+button {
+    font-size: 12px;
+    color: white !important;
+    background-color: #440029 !important;
+    box-shadow: 0px 0px 3px black !important;
+    border-color: #6C0241 !important;
+}
+button:hover {
+    color: white !important;
+    background-color: #be8f00 !important;
+    border-color: #be8f00 !important;
+}
+button:active {
+    color: white !important;
+    background-color: #6C0241 !important;
+    border-color: #6C0241 !important;
+}

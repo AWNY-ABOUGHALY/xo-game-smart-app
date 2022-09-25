@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>XO GAME</title>
+</head>
+<body>
+
+<div class="home vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="myapp bg-white text-center rounded">
+            <div class="headtitle rounded-top py-1"><div class="fs-3 fw-bold">XO GAME</div></div>
+            <div class="playerscore p-2">
+                <div class="thewinner fw-bold fs-4 p-2">SCORE</div>
+                <div class="players d-flex justify-content-between align-items-center mx-1">
+                    <div class="computer">
+                        <div class="fs-3"><i class="fa-solid fa-desktop text-danger"></i></div>
+                        <div class="pcscore fs-5"><input type="text" value="0" readonly></div>
+                    </div>
+                    <div class="you">
+                        <div class="fs-3"><i class="fa-solid fa-user text-success"></i></div>
+                        <div class="youscore fs-5"><input type="text" value="0" readonly></div>
+                    </div>
+                </div>
+            </div>
+        <div class="appbody p-2 d-flex flex-column">
+            <div class="d-flex">
+                <div class="oxdivbg"><div class="oxdiv">1</div></div>
+                <div class="oxdivbg"><div class="oxdiv">2</div></div>
+                <div class="oxdivbg"><div class="oxdiv">3</div></div>
+            </div>
+            <div class="d-flex">
+                <div class="oxdivbg"><div class="oxdiv">4</div></div>
+                <div class="oxdivbg"><div class="oxdiv">5</div></div>
+                <div class="oxdivbg"><div class="oxdiv">6</div></div>
+            </div>
+            <div class="d-flex">
+                <div class="oxdivbg"><div class="oxdiv">7</div></div>
+                <div class="oxdivbg"><div class="oxdiv">8</div></div>
+                <div class="oxdivbg"><div class="oxdiv">9</div></div>
+            </div>
+        </div>
+    </div>
+    <div class="buttons p-2 d-flex">
+        <button class="btn btn-md newscore mx-1">New Score</button>
+        <button class="btn btn-md playagain mx-1">Play Again</button>
+    </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
